@@ -1,0 +1,33 @@
+/* no punctuation is used for the element itself */
+h1 {
+    color:seagreen;
+}
+
+/* . is used for a class */
+.black-text {
+    color: black;
+}
+
+/* # is used for an id */
+#profile-pic {
+    border-radius: 50%;
+
+}
+
+.icon {
+    /* to maintain aspect ratio */
+    width: 25px;
+    height: auto;
+}
+
+.centered {
+    margin: 0px auto;
+    display: flex;
+    width: fit-content;
+}
+
+#social-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}

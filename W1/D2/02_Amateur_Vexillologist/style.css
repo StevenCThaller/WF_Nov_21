@@ -1,0 +1,136 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.flag {
+    width: 1020px;
+    height: 600px;
+    display: flex;
+}
+
+
+/* France */
+.third {
+    width: 33%;
+    height: 100%;
+    display: inline-block;
+}
+.france-blue {
+    background-color: #001e96;
+}
+.france-white {
+    background-color: #ffffff;
+}
+.france-red {
+    background-color: #ee2436;
+}
+
+
+/* Sweden */
+.sweden-blue {
+    background-color: #006aa8;
+}
+.sweden-yellow {
+    background-color: #fecd00;
+}
+.yellow-column {
+    width: 150px;
+    height: 250px;
+    margin: 0px 550px 0px 325px;
+}
+.yellow-stripe {
+    width: 1020px;
+    height: 150px;
+}
+
+/* USA */
+.usa-flag {
+    width: 1120px;
+    height: 650px;
+}
+
+.usa-red {
+    background-color: #b31c31;
+}
+
+.usa-white {
+    background-color: #ffffff;
+}
+
+.usa-blue {
+    background-color: #39386e;
+}
+
+.star-box {
+    width: 395px;
+    height: 270px;
+    display: inline-block;
+    padding: 15px;
+}
+
+.short-stripes {
+    display: inline-block;
+    width: 695px;
+    margin-left: -4px;
+    vertical-align: top;
+}
+
+.stripe {
+    height: 50px;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.six-row {
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 2px;
+    justify-content: space-between;
+}
+
+.five-row {
+    display: flex;
+    padding-top: 15px;
+    justify-content: space-evenly;
+}
+
+
+.star-five {
+    position: relative;
+    display: inline-block;
+    color: #ffffff;
+    width: 0px;
+    height: 0px;
+    border-right: 18px solid transparent;
+    border-bottom: 12px solid #ffffff;
+    border-left: 18px solid transparent;
+    transform: rotate(35deg);
+}
+.star-five:before {
+    border-bottom: 12px solid #ffffff;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -9px;
+    left: -11px;
+    display: block;
+    content: '';
+    transform: rotate(-35deg);
+}
+.star-five:after {
+    position: absolute;
+    display: block;
+    color: #ffffff;
+    top: 0px;
+    left: -18px;
+    width: 0px;
+    height: 0px;
+    border-right: 18px solid transparent;
+    border-bottom: 12px solid #ffffff;
+    border-left: 18px solid transparent;
+    transform: rotate(-70deg);
+    content: '';
+}

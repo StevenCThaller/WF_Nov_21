@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="white-shadow">Cody Thaller</h1>
+        <div class="centered">
+            <img id="profile-pic" src="images/picture_of_me.png" alt="Cody Thaller">
+            <div id="social-links">
+                <a class="black-text white-shadow" href="https://github.com/StevenCThaller">
+                    <img class="icon" src="images/github.png" alt="Github Icon"> my github
+                </a>
+                <a class="black-text white-shadow" href="https://linkedin.com/in/steven-thaller">
+                    <img class="icon" src="images/linkedin.png" alt="LinkedIn Icon"> my linkedin
+                </a>
+                <a class="black-text white-shadow" href="mailto:sthaller@codingdojo.com?subject=Contacting%20You%20About%20Your%20Profile">
+                    <img class="icon" src="images/email.png" alt="Email Icon"> my email
+                </a>
+            </div>
+        </div>
+        <div class="flex-row">
+            <div id="darker-background" class="middle-section col">
+                <h2 class="white-background brown-bottom-border">Technologies</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Front-End</th>
+                            <th>Python</th>
+                            <th>JavaScript</th>
+                            <th>Database</th>
+                            <th>Concepts</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>HTML5</td>
+                            <td>Django</td>
+                            <td>Express</td>
+                            <td>MySQL</td>
+                            <td>AJAX</td>
+                        </tr>
+                        <tr>
+                            <td>CSS3</td>
+                            <td>Flask</td>
+                            <td>Mongoose</td>
+                            <td>MongoDB</td>
+                            <td>OOP</td>
+                        </tr>
+                        <tr>
+                            <td>Bootstrap</td>
+                            <td>Unittest</td>
+                            <td>React</td>
+                            <td></td>
+                            <td>REST</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="middle-section col">
+                <h2>Social Snakes</h2>
+                <video class="project-video" src="videos/snakes.mp4" autoplay muted loop></video>
+                <p>
+                    Social Media App made in Python - <a href="#">code</a> | <a href="#">deployed</a>
+                </p>
+            </div>
+        </div>
+        
+        <h2>Contact Me</h2>
+        <form action="#">
+            <div>
+                <label for="name">Name: </label>
+                <input type="text" name="name" id="name">
+                <label for="email">Email: </label>
+                <input type="text" name="email" id="email">
+            </div>
+            <div>
+                <label for="message">Message: </label>
+                <textarea name="message" id="message" cols="25" rows="3"></textarea>
+            </div>
+            <input type="submit" value="Send Message">
+        </form>
+    </div>
+
+</body>
+</html>

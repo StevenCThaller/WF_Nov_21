@@ -1,0 +1,14 @@
+* {
+    background-color: rgb(56, 56, 56);
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+.relative {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 40px;
+}

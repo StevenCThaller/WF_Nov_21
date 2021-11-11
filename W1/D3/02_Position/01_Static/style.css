@@ -1,0 +1,15 @@
+* {
+    background-color: rgb(56, 56, 56);
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+.static {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    position: static;
+    left: 15px;
+    top: 75px;
+}

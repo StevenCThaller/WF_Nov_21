@@ -1,0 +1,23 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+    background-color: rgb(56, 56, 56);
+    color: white;
+}
+
+.fixed {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    border-radius: 50%;
+}
+
+.skinny {
+    width: 50%;
+    margin: auto;
+}

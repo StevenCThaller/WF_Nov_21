@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: url('./images/hero.jpg');
+    padding: 40px 40px 0px 40px;
+    position: relative;
+    height: 700px;
+    background-size: 100vw;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    width: 1000px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: -22px;
+    left: calc(50vw - 500px);
+    font-size: 80pt;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.field-logo {
+    width: 95px;
+    height: auto;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 9pt;
+    font-weight: bold;
+}
+
+.nav-links > li {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 12px;
+}
+
+.nav-icon {
+    width: 30px;
+    height: auto;
+}
+
+.nav-dark {
+    background-color: rgba(0, 0, 0, 0.815);
+}
+
+.nav-blue {
+    background-color: #0a46e6;
+    margin-left: 12px;
+}
+
+.controls {
+    position: absolute;
+    right: 35px;
+    bottom: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.controls button {
+    border: 1px solid lightgray;
+    background-color: rgba(0, 0, 0, 0.589);
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play-icon {
+    width: 20px;
+    height: auto;
+}
+
+.chevron {
+    width: 12px;
+    height: 12px;
+}
+
+.up {
+    border-left: 1px solid lightgray;
+    border-top: 1px solid lightgray;
+    transform: rotate(45deg);
+}
+
+.down {
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    transform: rotate(45deg);
+}
+
+main {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.exhibit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px 0px 75px 0px;
+    gap: 150px;
+}
+
+.blue-button {
+    background-color: #0a46e6;
+    color: white;
+    flex: 1;
+    font-size: 14pt;
+    font-weight: bold;
+    padding: 7px;
+    border: none;
+}
+
+.exhibit-details {
+    display: flex;
+    justify-content: space-between;
+
+    flex: 3;
+}
+
+.exhibit-details div {
+    flex: 2;
+}
+
+
+h2 {
+    font-size: 16pt;
+    margin-bottom: 20px;
+}
+
+.exhibit-hours {
+    color: rgb(56, 56, 56);
+    font-size: 10pt;
+}
+
+.exhibit-description {
+    color: rgb(56, 56, 56);
+    flex: 1;
+    border-left: 1px solid lightgray;
+    font-size: 10pt;
+    padding-left: 10px;
+}
+
+.detail-card {
+    flex: 1;
+}
+
+.detail-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.detail-card h3 {
+    margin-bottom: 20px;
+}
+
+.detail-card h3 a {
+    color: rgb(56, 56, 56);
+    text-decoration: none;
+}
+
+.detail-card h3 a:visited {
+    color: rgb(56, 56, 56);
+    text-decoration: none;
+}
+
+.whats-happnin {
+    width: 30%;
+}
+
+.whats-happnin ul {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.museum-event {
+    border: 1px solid gray;
+    display: flex;
+    background-color: lightgray;
+}
+
+.museum-event span {
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    font-size: 8pt;
+    font-weight: bold;
+}
+
+.museum-event button {
+    border: none;
+    background-color: white;
+    height: 100%;
+    padding: 20px 30px 20px 15px;
+    flex: 4;
+    font-size: 10pt;
+    font-weight: bold;
+    text-align: left;
+    position: relative;
+}
+
+.museum-event-button::after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    border-right: 1px solid blue;
+    border-bottom: 1px solid blue;
+    transform: rotate(-45deg);
+    position: absolute;
+    right: 20px;
+    bottom: calc(50% - 6px);
+}
+
+
+.museum-details {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 75px;
+}
+
+.whats-happnin,.detail-card {
+    flex: 1;
+}
+
+.thanks {
+    background-color: #f5d689;
+    display: flex;
+    border-radius: 15px;
+    width: 500px;
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+}
+
+.thanks img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.thanks div {
+    padding: 45px 30px 30px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h5 {
+    font-size: 16pt;
+    margin-bottom: 20px;
+}
+
+.support {
+    font-size: 11pt;
+    line-height: 1.5em;
+}
+
+.close {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.gift {
+    width: 100%;
+    background-color:rgb(56, 56, 56);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    padding: 15px;
+}

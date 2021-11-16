@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #333333;
+}
+
+.container {
+    width: 970px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid #f1c232;
+    padding: 0px 30px;
+}
+
+#logo {
+    width: 100px;
+    height: auto;
+}
+
+.nav-section {
+    display: flex;
+    align-items: center;
+}
+
+.search-sign {
+    gap: 25px;
+}
+
+.nav-link-list {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.signin-button {
+    background-color: #f1c232;
+    padding: 5px 10px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 4px black;
+}
+
+#search-select {
+    border-radius: 5px;
+    padding: 4px 10px;
+}
+
+.furniture-items {
+    display: flex;
+    justify-content: space-around;
+    gap: 75px;
+    padding: 0px 50px;
+}
+
+.item {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+
+.item-image {
+    flex-basis: 100%;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.item-name {
+    flex-basis: 50%;
+    color: #f1c232;
+}
+
+.item-price {
+    color: white;
+    font-size: 16pt;
+}
+
+.item-description {
+    flex-basis: 70%;
+    color: white;
+}
+
+.buy-item {
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+    border: 2px solid black;
+    font-size: 14pt;
+    box-shadow: 2px 2px 4px black;
+}
+
+.carousel {
+    margin: 25px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.carousel-main {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.chevron {
+    width: 30px;
+    height: auto;
+}
+
+.left {
+    transform: rotate(180deg);
+}
+
+.main-image {
+    width: 50%;
+    height: auto;
+}
+
+.select-image {
+    width: 50px;
+    height: 10px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.selected {
+    background-color: #95bcf2;
+}

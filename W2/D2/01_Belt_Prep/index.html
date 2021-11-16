@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J&A Restorations</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="nav-section">
+                <img id="logo" src="images/logo.png" alt="J&A Restoration Logo">
+                <ul class="nav-link-list">
+                    <li><a class="nav-link" href="#">Categories</a></li>
+                    <li><a class="nav-link" href="#">Shop</a></li>
+                    <li><a class="nav-link" href="#">Gallery</a></li>
+                </ul>
+            </div>
+            <div class="nav-section search-sign">
+                <select onchange="dropDownChange(this)" name="search-select" id="search-select">
+                    <option value="--Select--">-- Select --</option>
+                    <option value="Desk">Desk</option>
+                    <option value="Nightstand">Nightstand</option>
+                    <option value="Bed">Bed</option>
+                    <option value="Table">Table</option>
+                    <option value="Chair">Chair</option>
+                </select>
+                <button onclick="signIn(this)" class="signin-button">Sign In</button>
+            </div>
+        </nav>
+        <main>
+            <div class="carousel">
+                <div class="carousel-main">
+                    <img onclick="previousImage()" class="chevron left" src="images/chevron-right.png" alt="Select Previous Image">
+                    <img class="main-image" src="images/office.jpg" alt="Office">
+                    <img onclick="nextImage()" class="chevron right" src="images/chevron-right.png" alt="Select Next Image">
+                </div>
+                <div class="button-row">
+                    <button onclick="changeImage(0)" class="select-image selected"></button>
+                    <button onclick="changeImage(1)" class="select-image"></button>
+                    <button onclick="changeImage(2)" class="select-image"></button>
+                </div>
+            </div>
+            <div class="furniture-items">
+                <div class="item">
+                    <img src="images/nightstand.jpg" alt="Nighstand" class="item-image">
+                    <h3 class="item-name">Night Stand</h3>
+                    <p class="item-price">$59.99</p>
+                    <p class="item-description">
+                        A gorgeous dark nightstand with natural wood grain finish
+                    </p>
+                    <button class="buy-item">Buy</button>
+                </div>
+                <div class="item">
+                    <img src="images/desk.jpg" alt="Desk" class="item-image">
+                    <h3 class="item-name">Desk</h3>
+                    <p class="item-price">$199.99</p>
+                    <p class="item-description">
+                        A spacious desk with lots of storage. Perfect for working from home!
+                    </p>
+                    <button class="buy-item">Buy</button>
+                </div>
+                <div class="item">
+                    <img src="images/coffeetable.jpg" alt="Coffee Table" class="item-image">
+                    <h3 class="item-name">Coffee Table</h3>
+                    <p class="item-price">$199.99</p>
+                    <p class="item-description">
+                        A solid oak coffee table with a stain finish. So cozy!
+                    </p>
+                    <button class="buy-item">Buy</button>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
